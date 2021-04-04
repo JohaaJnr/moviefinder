@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Movie Finder</title>
+
+</head>
+<body>
+    <div class="container">
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Movie Finder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About App</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">API Source</a>
+                </li>
+                
+              </ul>
+             
+            </div>
+          </nav>
+        <!--Navbar End-->
+        <!-- Heading Container-->
+        <div class="jumbotron">
+            <h1 class="display-3">Movie Finder</h1>
+            <p class="lead">Enter to search for a movie... Ex. movie_name</p>
+            <hr class="my-4">
+            <form id="searchForm" class="form-inline my-2 my-lg-0"> 
+                <input style="width: 90%;" id="searchMovie" class="form-control mr-sm-2" type="text" placeholder="Search...">
+                <button id="btn" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+           </form> 
+            
+          </div>
+        <!--Heading Container End-->
+        <div id="info"></div>
+   
+</body>
+</html>
