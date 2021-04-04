@@ -77,7 +77,7 @@ function showMovieInfo(){
     </h6>
   </div>
   
-  <img src="${movieDetail.Poster}" class="d-block user-select-none" width="500px" height="400px" aria-label="Placeholder: ${movieDetail.Title}" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+  <img src="${movieDetail.Poster}" class="d-block user-select-none" width="100%" height="60%" aria-label="Placeholder: ${movieDetail.Title}" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
     <rect width="100%" height="100%" fill="#868e96"></rect>
     <text x="50%" y="50%" fill="#dee2e6" dy=".3em" >Source: The Open Movie Api</text>
   <br>
